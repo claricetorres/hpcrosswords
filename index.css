@@ -81,51 +81,6 @@ input{
     text-align: center;
     border-width: 2px;
 }
-.nimbus{
-    background-color: brown;
-}
-.severus{
-    background-color: palegreen;
-}
-.golden{
-    background-color: peru;
-}
-.hagrid{
-    background-color: plum;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.hermione{
-    background-color: royalblue;
-}
-.lupin{
-    background-color: red;
-}
-.albus{
-    background-color: skyblue;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.newt{
-    background-color: steelblue;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.ron{
-    background-color: teal;
-}
-.dobby{
-    background-color: tomato;
-}
-.hedwig{
-    background-color: yellow;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
 .clues{
     float: right;
     margin: 50px;
