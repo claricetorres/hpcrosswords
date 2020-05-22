@@ -2,10 +2,17 @@
 var preGame = document.getElementById("before");
 var postGame = document.getElementById("after");
 var wholeGame = document.getElementById("game");
+//functions for the buttons on pre and post game
 function clickStart(){
     console.log("begin")
     preGame.classList.add("vanish");
     wholeGame.classList.remove("vanish");
+}
+function clickReplay(){
+    console.log("end");
+    preGame.classList.remove("vanish");
+    wholeGame.classList.add("vanish");
+    postGame.classList.add("vanish");
 }
 //set variables to classes
 var myNimbus = document.querySelectorAll('.nimbus');
@@ -345,15 +352,14 @@ function compareWords(){
     }
     else{ console.log("not this time");}
 }
-//variable that allows clickme logic to happen
-var mouse = 0;
+
 //function that sets the behavior of the project after the button gets clicked
 function clickme(){
-    mouse++;
-    if(mouse !== 0){
-        compareLetters();
-        compareWords();
-    }
+    wholeGame.classList.add("vanish");
+    postGame.classList.remove("vanish");
+    compareLetters();
+    compareWords();
+    
 }
 
 chosenOne();
