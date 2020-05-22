@@ -8,7 +8,7 @@
     display: none !important;
 }
 /*before and after game*/
-.initgame{
+#before {
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgb(201, 111, 37),rgb(223, 91, 68));
@@ -34,7 +34,7 @@
     border: none;
     cursor: pointer;
 }
-.endgame{
+#after{
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgb(201, 111, 37),rgb(223, 91, 68));

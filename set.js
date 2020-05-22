@@ -1,3 +1,12 @@
+//set variables to ids on sections
+var preGame = document.getElementById("before");
+var postGame = document.getElementById("after");
+var wholeGame = document.getElementById("game");
+function clickStart(){
+    console.log("begin")
+    preGame.classList.add("vanish");
+    wholeGame.classList.remove("vanish");
+}
 //set variables to classes
 var myNimbus = document.querySelectorAll('.nimbus');
 var myHagrid = document.querySelectorAll('.hagrid');

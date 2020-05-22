@@ -10,10 +10,10 @@
 </head>
 <body>
    <!--Before game-->
-   <section id="before" class ="initgame">
+   <section id="before">
        <div class="welcome"><h1>Welcome to Harry Potter's crosswords</h1></div>
        <div class="play">
-           <button type="button">Play</button>
+           <button type="button" onclick="clickStart()">Play</button>
        </div>
    </section>
    <!--
@@ -36,7 +36,7 @@
    -->
 
    <!--Game-->
-   <section id="game" >
+   <section id="game" class="vanish">
        <!--<div class="title"><h1>Harry Potter crosswords puzzle</h1></div>-->
        <div class="bigblock">
             <div class="noentry"></div>
@@ -238,11 +238,11 @@
     </section>
    
    <!--After game-->
-    <section id="score" class= "endgame"> 
+    <section id="after" class="vanish"> 
         <div class="welcome"><h1>Thank you for playing</h1></div>
         <div class="welcome"><h1>Thank you for playing</h1></div>
         <div class="play">
-            <button type="button">Replay</button>
+            <button type="button" onclick="clickReplay()">Replay</button>
         </div>
     </section>
 
