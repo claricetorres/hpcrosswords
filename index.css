@@ -39,7 +39,7 @@
     height: fit-content;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .bigblock{
     height: 502px;
@@ -93,8 +93,9 @@ ul{
 li{
     padding: 5px;
 }
-button{
+.button{
     height: 40px;
     border: solid;
     border-color: red;
+    margin-bottom: 20px;
 }
