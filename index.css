@@ -23,6 +23,11 @@
     font-size: 20px;
     color: rgb(207, 24, 24)
 }
+.welcome:last-child{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
 .play{
     margin: 10px;
 }

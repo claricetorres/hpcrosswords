@@ -317,37 +317,37 @@ var conta = 0;
 function compareWords(){
     if(nim >= 6 || hag >=6 || hed >= 6 || alb >= 10 || ne >=4 || go >=6 || her >= 8 || lu >= 5 || dob >=5 || r >= 3 || sev >= 7){
         if(nim >= 6){
-            console.log("acertou nimbus");
+            conta++;
         }
         if(hag >= 6){
-            console.log("acertou hagrid");
+            conta++;
         }
         if(hed >= 6){
-            console.log("acertou hedwig");
+            conta++;
         }
         if(alb >= 10){
-            console.log("acertou albus");
+            conta++;
         }
         if(ne >= 4){
-            console.log("acertou newt");
+            conta++;
         }
         if(go >= 6){
-            console.log("acertou golden");
+            conta++;
         }
         if(her >= 8){
-            console.log("acertou hermione");
+            conta++;
         }
         if(lu >= 5){
-            console.log("acertou lupin");
+            conta++;
         }
         if(dob >= 5){
-            console.log("acertou dobby");
+            conta++;
         }
         if(r >= 3){
-            console.log("acertou ron");
+            conta++;
         }
         if(sev >= 7){
-            console.log("acertou severus");
+            conta++;
         }
     }
     else{ console.log("not this time");}
@@ -359,7 +359,7 @@ function clickme(){
     postGame.classList.remove("vanish");
     compareLetters();
     compareWords();
-    
+    document.getElementById("acertos").innerHTML = conta;
 }
 
 chosenOne();
