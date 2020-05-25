@@ -11,33 +11,14 @@
 <body>
    <!--Before game-->
    <section id="before">
-       <div class="welcome"><h1>Welcome to Harry Potter's crosswords</h1></div>
+       <div class="welcome"><h1>Welcome to this crossword puzzle.</h1></div>
+       <div class="welcome"><h3>Theme: Harry Potter</h3></div>
        <div class="play">
            <button type="button" onclick="clickStart()">Play</button>
        </div>
    </section>
-   <!--
-       ACROSS:
-       DUMBLEDORE
-       NIMBUS
-       HEDWIG
-       NEWT
-       HAGRID
-
-       UP:
-       SEVERUS
-
-       DOWN:
-       HERMIONE
-       LUPIN
-       DOBBY
-       GOLDEN
-       RON
-   -->
-
    <!--Game-->
    <section id="game" class="vanish">
-       <!--<div class="title"><h1>Harry Potter crosswords puzzle</h1></div>-->
        <div class="bigblock">
             <div class="noentry"></div>
             <div class="noentry"></div>
@@ -240,7 +221,7 @@
    <!--After game-->
     <section id="after" class="vanish"> 
         <div class="welcome"><h1>Thank you for playing</h1></div>
-        <div class="welcome"><h2>Words you got right: </h2><div id="acertos"></div></div>
+        <div class="welcome" id="score"><h2>Words you got right: </h2><div id="acertos"></div></div>
         <div class="play">
             <button type="button" onclick="clickReplay()">Replay</button>
         </div>
@@ -251,3 +232,5 @@
     <script src="set.js"></script>
 </footer>
 </html>
+<!--made by clarice-->
+<!--this project was made only with the purpose of being an exercise to learn coding-->

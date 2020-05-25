@@ -13,6 +13,7 @@ function clickReplay(){
     preGame.classList.remove("vanish");
     wholeGame.classList.add("vanish");
     postGame.classList.add("vanish");
+    nim = 0; hag = 0; hed = 0; alb = 0; ne = 0; go = 0; her = 0; lu = 0; dob = 0; r = 0; sev = 0; conta = 0;
 }
 //set variables to classes
 var myNimbus = document.querySelectorAll('.nimbus');
@@ -359,7 +360,10 @@ function clickme(){
     postGame.classList.remove("vanish");
     compareLetters();
     compareWords();
-    document.getElementById("acertos").innerHTML = conta;
+    document.getElementById("acertos").innerHTML = conta+"/11";
+    for(var i = 0; i<$("input").length; i++){
+        document.querySelectorAll("input")[i].value = "";
+    }
 }
 
 chosenOne();
@@ -367,3 +371,5 @@ chosenOne();
 
 
 
+//made by clarice
+//this project was made only with the purpose of being an exercise to learn coding

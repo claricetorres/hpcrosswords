@@ -16,17 +16,13 @@
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
+    opacity: 1;
 }
 .welcome{
     margin: 10px;
     font-family: 'Marck Script', cursive;
     font-size: 20px;
     color: rgb(207, 24, 24)
-}
-.welcome:last-child{
-    display: flex;
-    flex-flow: row wrap;
-    
 }
 .play{
     margin: 10px;
@@ -48,18 +44,23 @@
     justify-content: center;
     flex-flow: column wrap;
 }
+#score{
+    display: flex;
+    flex-direction: row;
+}
+#acertos{
+    margin-left: 20px;
+    font-size: 30px;
+}
 /*game*/
 #game{
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgb(102, 64, 33),rgb(245, 210, 114));
+    background-image: linear-gradient(rgb(233, 225, 219),rgb(224, 219, 206));
 }
 .bigblock{
-    height: 502px;
-    width: 502px;
-    border: solid;
-    border-width: 1px;
-    color: black;
+    height: 500px;
+    width: 500px;
     margin: 40px;
     float: left;
     display: flex;
@@ -85,14 +86,13 @@ span{
     height: 50px;
     font-size: large;
     text-align: center;
-    border-width: 2px;
 }
 input{
     width: 50px;
     height: 50px;
     font-size: large;
     text-align: center;
-    border-width: 2px;
+    border-width: 1px;
 }
 .clues{
     float: right;
@@ -122,3 +122,5 @@ li{
     margin-bottom: 10px;
 }
 
+/*made by clarice*/
+/*this project was made only with the purpose of being an exercise to learn coding*/
